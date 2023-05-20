@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7n97ibc0Q8s40dIutwox6QOWb1Y3DtCl3QRBOoQNOAKrs36KgKSzE4NGidKDviZaOLtxTQSk8WQSdRWFOiC1CA==",
+  "dgSpecHash": "P1E/0meTVOAzscB7CW9nohUNDM3cU9usaI4eOzKwS7f09H0WO+iKeK5h6bc9r4oZTbK0K5uDhvS0+PzAbHV5dA==",
   "success": true,
   "projectFilePath": "D:\\桌面\\antra\\C#\\Antra\\HRM\\Service\\Recruiting\\Recruiting.API\\Recruiting.API.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",

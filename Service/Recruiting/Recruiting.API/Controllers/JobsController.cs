@@ -1,7 +1,9 @@
 ﻿using ApplicationCore.Contracts.Services;
+using ApplicationCore.Entities;
 using ApplicationCore.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Text;
 
 namespace Recruiting.API.Controllers
@@ -40,6 +42,8 @@ namespace Recruiting.API.Controllers
         }
 
 
+
+
         // http:localhost/api/jobs/4
         [HttpGet]
         [Route("{id:int}", Name = "GetJobDetails")]
@@ -58,7 +62,7 @@ namespace Recruiting.API.Controllers
 
         [HttpPost]
         [Route("")]
-        public async Task<IActionResult> create(JobRequestModel model)
+        public async Task<IActionResult> Create(JobRequestModel model)
         {
             if (!ModelState.IsValid)
                 // 400 status code

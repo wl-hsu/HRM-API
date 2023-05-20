@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ApplicationCore.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,14 @@ namespace ApplicationCore.Models
         public string Description { get; set; }
 
         public DateTime? StarDate { get; set; }
+
+
+        //public JobStatusLookUp JobStatusLookUp { get; set; }
+
+
+        //public string JobStatusDescription { get; set; }
+
+
 
         //public string Department { get; set; }
 

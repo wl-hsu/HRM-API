@@ -1,0 +1,12 @@
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\ApplicationCore\bin\Debug\net7.0\ApplicationCore.deps.json
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\ApplicationCore\bin\Debug\net7.0\ApplicationCore.dll
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\ApplicationCore\bin\Debug\net7.0\ApplicationCore.pdb
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.AssemblyReference.cache
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\ApplicationCore\obj\Debug\net7.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfoInputs.cache
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfo.cs
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.CoreCompileInputs.cache
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\ApplicationCore\obj\Debug\net7.0\ApplicationCore.dll
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll

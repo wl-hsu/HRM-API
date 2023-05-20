@@ -31,18 +31,18 @@ namespace Infrastructure.Data
         public DbSet<Department> Departments { get; set; }
 
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Candidate>(ConfigureCandidate);
-        }
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<Candidate>(ConfigureCandidate);
+        //}
 
-        private void ConfigureCandidate(EntityTypeBuilder<Candidate> builder)
-        {
-            builder.HasKey(x => x.Id);
-            builder.Property(x => x.FirstName).HasMaxLength(100);
-            builder.HasIndex(x => x.Email).IsUnique();
-            builder.Property(x => x.CreateOn).HasDefaultValueSql("getdate()");
+        //private void ConfigureCandidate(EntityTypeBuilder<Candidate> builder)
+        //{
+        //    builder.HasKey(x => x.Id);
+        //    builder.Property(x => x.FirstName).HasMaxLength(100);
+        //    builder.HasIndex(x => x.Email).IsUnique();
+        //    builder.Property(x => x.CreateOn).HasDefaultValueSql("getdate()");
 
-        }
+        //}
     }
 }

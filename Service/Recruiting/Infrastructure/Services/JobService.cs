@@ -22,6 +22,7 @@ namespace Infrastructure.Services
         public async Task<int> AddJob(JobRequestModel model)
         {
             var jobEntity = new Job { 
+                Id = model.Id,
                 Title = model.Title,
                 StartDate = model.StarDate,
                 Description = model.Description,
@@ -94,10 +95,26 @@ namespace Infrastructure.Services
                 Description = job.Description,
                 Title = job.Title,
                 StarDate = job.StartDate.GetValueOrDefault(),
+                NumberOfPositions = job.NumberOfPositions,
             };
             return jobsResponseModel;
         }
 
+        public async Task<int> UpdateJob(JobRequestModel model)
+        {
+            var jobEntity = new Job
+            {
+                Id = model.Id,
+                Title = model.Title,
+                StartDate = model.StarDate,
+                Description = model.Description,
+                CreatedOn = DateTime.UtcNow,
+                NumberOfPositions = model.NumberOfPositions,
+                jobStatusLookUpId = 1
 
+            };
+            var job = await _jobRepository.AddAsync(jobEntity);
+            return job.Id;
+        }
     }
 }

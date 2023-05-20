@@ -1,4 +1,5 @@
 ﻿using ApplicationCore.Entities;
+using ApplicationCore.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,10 +8,12 @@ using System.Threading.Tasks;
 
 namespace ApplicationCore.Contracts.Repositories
 {
-    public interface ICandidateRepository
+    public interface ICandidateRepository: IBaseRepository<Candidate>
     {
-        List<Candidate> GetAllCandidates();
+        Task<List<Candidate>> GetAllCandidates();
 
-        Candidate GetCandidateById(int id);
+        Task<Candidate> GetCandidateById(int id);
+
+
     }
 }

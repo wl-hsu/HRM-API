@@ -16,6 +16,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IJobService, JobService>();
 builder.Services.AddScoped<IJobRepository, JobRepository>();
+builder.Services.AddScoped<ICandidateService, CandidateService>();
+builder.Services.AddScoped<ICandidateRepository, CandidateRepository>();
+//builder.Services.AddControllers(setupAction => {
+//                                setupAction.ReturnHttpNotAcceptable = true;
+//                                }).AddXmlDataContractSerializerFormatters();
 
 builder.Services.AddDbContext<RecruitingDbContext>(
         options => options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitingDbConnection"))

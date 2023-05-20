@@ -10,7 +10,12 @@ namespace ApplicationCore.Contracts.Services
     public interface ICandidateService
     {
 
-        List<CandidateResponseModel> GetAllCandidates();
-        CandidateResponseModel GetCandidateById(int id);
+        Task<List<CandidateResponseModel>> GetAllCandidates();
+        Task<CandidateResponseModel> GetCandidateById(int id);
+
+        //Task<int> AddCandidate(CandidateRequestModel model);
+
+
+        Task<int> AddCandidate(CandidateRequestModel model);
     }
 }

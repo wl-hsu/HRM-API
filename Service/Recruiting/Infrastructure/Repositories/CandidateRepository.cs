@@ -1,5 +1,6 @@
 ﻿using ApplicationCore.Contracts.Repositories;
 using ApplicationCore.Entities;
+using ApplicationCore.Models;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -11,22 +12,25 @@ using System.Threading.Tasks;
 namespace Infrastructure.Repositories
 {
 
-    public class CandidateRepository : ICandidateRepository
+    public class CandidateRepository : BaseRepository<Candidate>, ICandidateRepository
     {
-        private RecruitingDbContext _recruitingDbContext;
-        public CandidateRepository(RecruitingDbContext recruitingDbContext)
+
+        public CandidateRepository(RecruitingDbContext dbContext) : base(dbContext)
         {
-            _recruitingDbContext = recruitingDbContext;
+            //_recruitingDbContext = dbContext;
         }
-        public List<Candidate> GetAllCandidates()
+
+
+
+        public async Task<List<Candidate>> GetAllCandidates()
         {
-            var candidates =  _recruitingDbContext.Candidates.ToList();
+            var candidates = await dbContext.Candidates.ToListAsync();
             return candidates;
         }
 
-        public Candidate GetCandidateById(int id)
+        public async Task<Candidate> GetCandidateById(int id)
         {
-            var candidate = _recruitingDbContext.Candidates.FirstOrDefault(j => j.Id == id);
+            var candidate = await dbContext.Candidates.FirstOrDefaultAsync(j => j.Id == id);
             return candidate;
         }
     }

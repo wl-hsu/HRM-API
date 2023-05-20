@@ -1,0 +1,15 @@
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\Infrastructure\bin\Debug\net7.0\ApplicationCore.dll
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\Infrastructure\bin\Debug\net7.0\ApplicationCore.pdb
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+D:\桌面\antra\C#\Antra\HRM\Service\OnBoarding\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
