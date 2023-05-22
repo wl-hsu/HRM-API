@@ -25,5 +25,6 @@ namespace ApplicationCore.Models
         public string Email { get; set; }
 
         public string? ResumeURL { get; set; }
+        public DateTime? CreatedOn { get; set; }
     }
 }

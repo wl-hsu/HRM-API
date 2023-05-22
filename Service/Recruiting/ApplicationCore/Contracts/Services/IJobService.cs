@@ -16,8 +16,12 @@ namespace ApplicationCore.Contracts.Services
 
         Task<int> AddJob(JobRequestModel model);
 
-        Task<int> UpdateJob(JobRequestModel model);
+        //Task<int> UpdateJob(JobRequestModel model);
+
+        Task<List<JobResponseModel>> GetJobsByKeyword(string Keyword);
 
         Task<List<JobResponseModel>> GetJobsByDepartment(int id);
+
+        Task<int> UpdateJobById(JobRequestModel model, int id);
     }
 }

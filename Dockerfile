@@ -21,4 +21,5 @@ RUN dotnet publish "Interviews.API.csproj" -c Release -o /app/publish /p:UseAppH
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+ENV MSSQLConnectionString="Server=tcp:interviewtesting.database.windows.net,1433;Initial Catalog=InterviewDb2;Persist Security Info=False;User ID=testuser;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 ENTRYPOINT ["dotnet", "Interviews.API.dll"]

@@ -15,7 +15,7 @@ namespace ApplicationCore.Models
 
         public string FirstName { get; set; }
 
-        public string MiddleName { get; set; }
+        public string? MiddleName { get; set; }
 
         public string LastName { get; set; }
 
@@ -24,5 +24,7 @@ namespace ApplicationCore.Models
         public string? ResumeURL { get; set; }
 
         public DateTime CreateOn { get; set; }
+
+        public List<Submission> Submissions { get; set; }
     }
 }

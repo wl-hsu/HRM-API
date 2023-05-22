@@ -47,6 +47,8 @@ namespace ApplicationCore.Entities
 
         public JobStatusLookUp JobStatusLookUp { get; set; }
 
+        public List<Submission> Submissions { get; set; }
+
 
     }
 }

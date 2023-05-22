@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,7 +22,7 @@ namespace ApplicationCore.Entities
         [MaxLength(50)]
         public string LastName { get; set; }
 
-        [MaxLength(512)]
+        [Required, DataType(DataType.EmailAddress), Column(TypeName = "varchar(max)")]
         public string Email { get; set; }
 
 

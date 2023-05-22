@@ -30,5 +30,7 @@ namespace ApplicationCore.Models
 
         [Required(ErrorMessage="Please enter a number")]
         public int NumberOfPositions { get; set; }
+
+        public int JobStatusLookUpId { get; set; }
     }
 }
